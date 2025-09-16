@@ -31,6 +31,7 @@
         <div class="navbar-nav ms-auto navbar-ml">
           <a class="nav-link" href="{% url 'home.about' %}">About</a>
           <a class="nav-link" href="{% url 'movies.index' %}">Movies</a>
+          <a class="nav-link" href="{% url 'movies.movie_requests' %}">Request Movie</a>
           <a class="nav-link" href="{% url 'cart.index' %}">Cart</a>
           <div class="vr bg-white mx-2 d-none
               d-lg-block"></div>
@@ -42,7 +43,6 @@
           <a class="nav-link" href="{% url 'accounts.signup' %}">Sign Up
           </a>
           {% endif %}
-          </a>
         </div>
       </div>
     </div>
